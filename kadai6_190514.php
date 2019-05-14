@@ -14,7 +14,7 @@
 <p>【出力】</p>
 
 <?php
-if(@$_POST['add']) {
+if(isset($_POST['add'])) {
     $num1 = $_POST['fizz'];
     $num2 = $_POST['buzz'];
 
